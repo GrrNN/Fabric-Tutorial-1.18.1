@@ -1,6 +1,6 @@
-package net.linc.tutorialmod.mixin;
+package net.linc.rosegoldmod.mixin;
 
-import net.linc.tutorialmod.TutorialMod;
+import net.linc.rosegoldmod.RoseGoldMod;
 import net.minecraft.client.gui.screen.TitleScreen;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
@@ -11,6 +11,6 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 public class ExampleMixin {
 	@Inject(at = @At("HEAD"), method = "init()V")
 	private void init(CallbackInfo info) {
-		TutorialMod.LOGGER.info("This line is printed by an example mod mixin!");
+		RoseGoldMod.LOGGER.info("This line is printed by an example mod mixin!");
 	}
 }

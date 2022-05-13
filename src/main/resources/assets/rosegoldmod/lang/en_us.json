@@ -1,0 +1,28 @@
+{
+  "item.rosegoldmod.rosegold_ingot": "Rosegold Ingot",
+  "item.rosegoldmod.rosegold_nugget": "Rosegold Nugget",
+
+  "block.rosegoldmod.rosegold_block": "Rosegold Block",
+
+  "itemGroup.rosegoldmod.rosegold": "Rosegold Tab",
+
+  "item.rosegoldmod.rosegold_sword": "Rosegold Sword",
+  "item.rosegoldmod.rosegold_axe": "Rosegold Axe",
+  "item.rosegoldmod.rosegold_pickaxe": "Rosegold Pickaxe",
+  "item.rosegoldmod.rosegold_hoe": "Rosegold Hoe",
+  "item.rosegoldmod.rosegold_shovel": "Rosegold Shovel",
+
+  "item.rosegoldmod.rosegold_helmet": "Rosegold Helmet",
+  "item.rosegoldmod.rosegold_chestplate": "Rosegold Chestplate",
+  "item.rosegoldmod.rosegold_leggings": "Rosegold Leggings",
+  "item.rosegoldmod.rosegold_boots": "Rosegold Boots",
+
+  "item.rosegoldmod.rosegold_apple": "Rosegold Apple",
+  "item.rosegoldmod.enchanted_rosegold_apple": "Enchanted Rosegold Apple",
+  "item.rosegoldmod.rosegold_carrot": "Rosegold Carrot",
+  "item.rosegoldmod.sweetened_honey_bottle": "Sweetened Honey Bottle",
+
+  "item.minecraft.potion.effect.haste_potion": "Haste Potion",
+  "item.minecraft.splash_potion.effect.freeze_potion": "Splash Potion of Haste",
+  "item.minecraft.lingering_potion.effect.freeze_potion": "Lingering Potion of Haste"
+}

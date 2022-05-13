@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "id": "tutorialmod",
+  "id": "rosegoldmod",
   "version": "${version}",
 
-  "name": "Tutorial Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Rose Gold",
+  "description": "This mod implements rose gold to provide more uses to copper and gold!",
   "authors": [
     "Linc"
   ],
@@ -19,11 +19,11 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.linc.tutorialmod.TutorialMod"
+      "net.linc.rosegoldmod.RoseGoldMod"
     ]
   },
   "mixins": [
-    "tutorialmod.mixins.json"
+    "rosegoldmod.mixins.json"
   ],
 
   "depends": {
