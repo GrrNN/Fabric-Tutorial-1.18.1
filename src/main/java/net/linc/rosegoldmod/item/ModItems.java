@@ -7,7 +7,9 @@ import net.linc.rosegoldmod.item.custom.ModHoeItem;
 import net.linc.rosegoldmod.item.custom.ModPickaxeItem;
 import net.minecraft.entity.EquipmentSlot;
 import net.minecraft.item.*;
+import net.minecraft.item.EnchantedGoldenAppleItem;
 import net.minecraft.util.Identifier;
+import net.minecraft.util.Rarity;
 import net.minecraft.util.registry.Registry;
 
 public class ModItems {
@@ -16,6 +18,9 @@ public class ModItems {
 
         public static final Item ROSEGOLD_NUGGET = registerItem("rosegold_nugget",
                 new Item(new FabricItemSettings().group(ModItemGroup.ROSEGOLD)));
+
+    public static final Item ROSEGOLD_SHARD = registerItem("rosegold_shard",
+            new Item(new FabricItemSettings().group(ModItemGroup.ROSEGOLD)));
 
     public static final Item ROSEGOLD_SWORD = registerItem("rosegold_sword",
             new SwordItem(ModToolMaterials.ROSEGOLD, 4, -2.4f,
@@ -57,13 +62,13 @@ public class ModItems {
             new Item(new FabricItemSettings().group(ModItemGroup.ROSEGOLD).food(ModFoodComponent.ROSEGOLD_APPLE)));
 
     public static final Item ENCHANTED_ROSEGOLD_APPLE = registerItem("enchanted_rosegold_apple",
-            new Item(new FabricItemSettings().group(ModItemGroup.ROSEGOLD).food(ModFoodComponent.ENCHANTED_ROSEGOLD_APPLE)));
+             (Item)new net.linc.rosegoldmod.item.EnchantedGoldenAppleItem(new FabricItemSettings().group(ModItemGroup.ROSEGOLD).rarity(Rarity.EPIC).food(ModFoodComponent.ENCHANTED_ROSEGOLD_APPLE)));
+
+
 
     public static final Item ROSEGOLD_CARROT = registerItem("rosegold_carrot",
             new Item(new FabricItemSettings().group(ModItemGroup.ROSEGOLD).food(ModFoodComponent.ROSEGOLD_CARROT)));
 
-    public static final Item SWEETENED_HONEY_BOTTLE = registerItem("sweetened_honey_bottle",
-            new Item(new FabricItemSettings().group(ModItemGroup.ROSEGOLD).food(ModFoodComponent.SWEETENED_HONEY_BOTTLE)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registry.ITEM, new Identifier(RoseGoldMod.MOD_ID, name), item);

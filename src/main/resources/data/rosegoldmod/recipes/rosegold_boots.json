@@ -6,10 +6,10 @@
   ],
   "key": {
     "X": {
-      "item": "rosegold:rosegold_ingot"
+      "item": "rosegoldmod:rosegold_ingot"
     }
   },
   "result": {
-    "item": "rosegold:rosegold_boots"
+    "item": "rosegoldmod:rosegold_boots"
   }
 }
